@@ -13,7 +13,7 @@
 
 ## uptifier setup
 
-After the nullmailer is setup, create a *cron job* for the `run.sh` by running the command `crontab -e`.
+After the nullmailer is setup, create a *cron job* for the `uptifier.sh` by running the command `crontab -e`.
 
 For example, to run the uptifier every sunday at midnight, append the file with
-`0 0 * * 7 /path/to/run.sh`
+`0 0 * * 7 /path/to/uptifier.sh`
