@@ -13,7 +13,7 @@ pushd "${DIR}"
 for entry in $(ls tasks/*.sh); do
 	echo "Preparing $entry ..."
 	echo "Removing old log file ..."
-	rm -f ./tasks/${entry%.*}.log
+	rm -f ${entry%.*}.log
 	echo "Running task ..."
 	$entry &> ${entry%.*}.log
 	echo "Task done. Task log:"
