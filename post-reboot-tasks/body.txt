@@ -1,0 +1,13 @@
+Main log for post-reboot tasks on la 20.2.2021 16.55.33 +0200
+Logs for failed tasks as attachments
+
+
+
+
+
+FAILED tasks: 1
+post-reboot-tasks/10-check-hassio.log
+
+
+
+SUCCEEDED tasks: 0
